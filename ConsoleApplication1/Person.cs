@@ -16,5 +16,23 @@ namespace ConsoleApplication1
         private int _age;
 
         //PUBLIC PROPERTIES------------------
+        public string Name
+        {
+            get
+            {
+                return this._name;
+            }
+            set
+            {
+                this._name = value;
+
+            }
+
+        }
+
     }
 }
+
+
+        
+
