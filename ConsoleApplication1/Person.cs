@@ -15,6 +15,6 @@ namespace ConsoleApplication1
         private string _name;
         private int _age;
 
-        //
+        //PUBLIC PROPERTIES------------------
     }
 }
