@@ -29,7 +29,39 @@ namespace ConsoleApplication1
             }
 
         }
+        public int Age
+        {
+            get
+            {
+                return this._age;
+            }
+            set
+            {
+                this._age = value;
 
+            }
+
+        }
+        //CONSTRUCTORS---------------------------
+        
+            /// <summary>
+            /// This is the Constructor for the Person class.  The constructor
+            /// requires two arguments - name (string) and age (int).
+            /// </summary>
+            /// <param name="name"></param>
+            /// <param name="age"></param>
+                         
+        public Person(string name, int age)
+        {
+            this.Name = name;
+            this.Age = age;
+        }
+        //PUBLIC METHODS----------------------------
+
+        public void Talk()
+        {
+            Console.WriteLine(this.Name + "is talking!");
+        }
     }
 }
 
