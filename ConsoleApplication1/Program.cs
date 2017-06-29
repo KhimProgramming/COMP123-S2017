@@ -10,6 +10,20 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
+                Console.WriteLine("Hello, World!");
+                Console.WriteLine("-------------");
+                Console.WriteLine();
+
+                Person person = new Person("Tom", 25);
+                person.Talks();
+
+                Student student = new Student("John", 19, "123456789A");
+                student.Studies();
+                student.Talks();
+
+                DomesticStudents domestic = new DomesticStudents("Mary", 21, "123456788B");
+                domestic.Talks();
+            }
         }
     }
-}
+

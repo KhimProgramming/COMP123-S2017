@@ -9,7 +9,7 @@ namespace ConsoleApplication1
     /// <summary>
     /// This is the Person Super Class
     /// </summary>
-    class Person
+   public class Person
     {
         //PRIVATE INSTANCE VARIABLES (FIELDS)
         private string _name;
@@ -29,6 +29,7 @@ namespace ConsoleApplication1
             }
 
         }
+        
         public int Age
         {
             get
@@ -58,7 +59,7 @@ namespace ConsoleApplication1
         }
         //PUBLIC METHODS----------------------------
 
-        public void Talk()
+        public void Talks()
         {
             Console.WriteLine(this.Name + "is talking!");
         }
